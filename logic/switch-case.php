@@ -12,12 +12,12 @@ switch ($r) {
 
 $color = 'blue';
 switch ($color) {
-        /*case 'red':
-        echo "{$color} is our favorite color";
-        break;
-    case 'green':
-        echo "{$color} is our favorite color";
-        break;*/
+    /*case 'red':
+    echo "{$color} is our favorite color";
+    break;
+case 'green':
+    echo "{$color} is our favorite color";
+    break;*/
     case 'red':
     case 'green':
         echo ucwords($color), " is our favorite color";
